@@ -1,0 +1,31 @@
+{
+  "snapshot": "2026-11-11",
+  "release_tag": "preview-2026-11-11",
+  "archive": "terramow-x-expansion-bay-preview-2026-11-11.zip",
+  "files": [
+    {
+      "role": "step",
+      "path": "mechanical/step/Terramow X Expansion Bay Mounting Model.STEP.zip",
+      "bytes": 21873010,
+      "sha256": "e7f41528f1a1b1c7f8c4cabbf0d3ffac16a76d792b679108a71ea22094175545",
+      "contained_file": {
+        "name": "Terramow X Expansion Bay Mounting Model.STEP",
+        "bytes": 83244743,
+        "sha256": "ec74d4987a0ca5aebe0febec49c01003a1aa30f2f106b39056e6b06bfcec01f0"
+      }
+    },
+    {
+      "role": "rendering",
+      "path": "mechanical/previews/Terramow X Expansion Bay Rendering.pdf",
+      "bytes": 646930,
+      "sha256": "ed5c14041712ee3ec44cee07df2f1cf027185932889bb87164133dd6eef3129b"
+    },
+    {
+      "role": "drawing",
+      "path": "mechanical/drawings/Terramow X Expansion Bay Mounting Hole Drawing_A1.pdf",
+      "bytes": 378437,
+      "sha256": "4630a5ba57453b7a6b755c0e9d75387f2b2b31fa6aa3089b40b30c670253ce8e",
+      "revision": "A1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: Preview feedback
+description: Ask about the model, request information, or share an accessory idea.
+title: "[Feedback]: "
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Topic
+      options:
+        - Download or viewing issue
+        - Model or drawing question
+        - Information request
+        - Accessory idea
+        - Documentation correction
+    validations:
+      required: true
+  - type: input
+    id: snapshot
+    attributes:
+      label: Snapshot or filename, if relevant
+      placeholder: "2026-11-11"
+    validations:
+      required: false
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Describe your question or idea. Screenshots or sketches are optional.
+    validations:
+      required: true
